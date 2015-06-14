@@ -1,0 +1,20 @@
+.app {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.delete-meal, .edit-meal {
+    font-size: 15px !important;
+    display: block;
+    float: right;
+    color: #b1b1b1;
+}
+
+#login-buttons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-close-text, #signup-link {
+    color: #009688 !important;
+}
