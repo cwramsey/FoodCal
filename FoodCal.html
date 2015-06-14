@@ -74,11 +74,13 @@
 </body>
 
 <template name="meal">
-    <div class="col-md-3 col-lg-2 meal">
+    <div class="col-md-3 col-lg-2 meal" data-id="{{_id}}">
         <div class="panel panel-default">
             <div class="panel-heading">
                 {{name}}
                 <i class="mdi-navigation-cancel delete-meal"></i>
+                <i class="mdi-image-navigate-next move-meal-right"></i>
+                <i class="mdi-image-navigate-before move-meal-left"></i>
             </div>
             <div class="panel-body">
                 Primary Ingredient: {{ingredient}}

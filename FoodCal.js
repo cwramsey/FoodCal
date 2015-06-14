@@ -52,6 +52,28 @@ if (Meteor.isClient) {
             meals.forEach(function(v) {
                 $('.meals').prepend(v);
             })
+        },
+
+        'click .move-meal-right': function(e) {
+            e.preventDefault();
+
+            var meal = $('.meal[data-id="'+this._id+'"]');
+            var nextMeal = meal.next('.meal');
+
+            if (nextMeal.length > 0) {
+                nextMeal.after(meal);
+            }
+        },
+
+        'click .move-meal-left': function(e) {
+            e.preventDefault();
+
+            var meal = $('.meal[data-id="'+this._id+'"]');
+            var nextMeal = meal.prev('.meal');
+
+            if (nextMeal.length > 0) {
+                nextMeal.before(meal);
+            }
         }
     });
 

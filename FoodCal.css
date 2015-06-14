@@ -3,11 +3,15 @@
     margin: 0 auto;
 }
 
-.delete-meal, .edit-meal {
+.delete-meal,
+.edit-meal,
+.move-meal-left,
+.move-meal-right {
     font-size: 15px !important;
     display: block;
     float: right;
     color: #b1b1b1;
+    cursor: pointer;
 }
 
 #login-buttons a {
