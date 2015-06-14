@@ -1,5 +1,7 @@
 #FoodCal
 
+Demo: http://foodcal.meteor.com
+
 FoodCal is a simple (and I DO mean simple) SPA built in Meteor.js in about an hour and a half.
 
 It's my first project in Meteor and I was surprised at just how simple it really was to make.
